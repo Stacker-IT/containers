@@ -1,12 +1,17 @@
 package by.ITAcademy.gomel.containers;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 public abstract class Container {
+    private final double HEIGHT = 1;
+    private final double OCCUPANCY = 0.95;
+
     private double volume;
     private double filledVolume;
-    private final double HEIGHT = 1;
+
 
 
 }
