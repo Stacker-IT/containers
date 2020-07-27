@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2471b97d-7495-4544-a984-1b191dc6be33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/filler/Filler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Filler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/liquids/Liquid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/liquids/Liquid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/filler/Filler.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +67,7 @@
       <workItem from="1595620445982" duration="1537000" />
       <workItem from="1595623368195" duration="3806000" />
       <workItem from="1595750137682" duration="5015000" />
+      <workItem from="1595872878106" duration="272000" />
     </task>
     <servers />
   </component>

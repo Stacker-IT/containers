@@ -1,5 +1,6 @@
 package by.ITAcademy.gomel.containers;
 
+import by.ITAcademy.gomel.liquids.Liquid;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -13,7 +14,7 @@ public abstract class Container {
     private double filledVolume;
     
     public Liquid fillContainer(Liquid.DensityOfLiquids DENSITY){
-        Liquid liquid = new Liquid(DENSITY);
+        Liquid liquid = new Liquid(10, DENSITY);
 
 
 
