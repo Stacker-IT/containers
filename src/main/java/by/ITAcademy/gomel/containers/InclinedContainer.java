@@ -5,8 +5,10 @@ import by.ITAcademy.gomel.liquids.Liquid;
 import lombok.Data;
 
 @Data
-public abstract class StraightContainer extends Container{
-    protected double baseSquare;
+public abstract class InclinedContainer extends Container{
+    protected double baseSquare1;
+    protected double baseSquare2;
+
 
     public Liquid fillContainer(Properties.DensityOfLiquids DENSITY) {
         this.liquid = new Liquid(getVolume() * Properties.OCCUPANCY_OF_CONTAINERS, DENSITY);
@@ -22,7 +24,7 @@ public abstract class StraightContainer extends Container{
     }
 
     public double getVolume(){
-        return baseSquare* Properties.HEIGHT_OF_CONTAINERS;
+        return (baseSquare1 + Math.sqrt(baseSquare1 * baseSquare2) + baseSquare2)
+                * Properties.HEIGHT_OF_CONTAINERS / 3;
     }
-
 }

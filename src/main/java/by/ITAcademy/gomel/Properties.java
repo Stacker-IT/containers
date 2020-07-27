@@ -10,6 +10,7 @@ public class Properties {
         DensityOfLiquids(int density){
             this.density = density;
         }
+        public int getDensity(){return density;}
     }
 
     public static final double HEIGHT_OF_CONTAINERS = 1;

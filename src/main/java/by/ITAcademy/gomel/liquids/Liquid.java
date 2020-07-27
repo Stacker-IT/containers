@@ -17,4 +17,8 @@ public class Liquid {
         this.volume = volume;
         this.DENSITY = DENSITY;
     }
+
+    public double getWeight(){
+        return volume * DENSITY.getDensity();
+    }
 }
