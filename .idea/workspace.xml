@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2471b97d-7495-4544-a984-1b191dc6be33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Filler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Properties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Filler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Filler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/filler/Filler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/liquids/Liquid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/liquids/Liquid.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +55,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Filler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.ITAcademy.gomel.Filler" />
+      <module name="notSameContainers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.ITAcademy.gomel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Filler" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -67,7 +89,7 @@
       <workItem from="1595620445982" duration="1537000" />
       <workItem from="1595623368195" duration="3806000" />
       <workItem from="1595750137682" duration="5015000" />
-      <workItem from="1595872878106" duration="272000" />
+      <workItem from="1595872878106" duration="2181000" />
     </task>
     <servers />
   </component>
