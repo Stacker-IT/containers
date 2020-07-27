@@ -11,6 +11,14 @@ public abstract class Container {
 
     private double volume;
     private double filledVolume;
+    
+    public Liquid fillContainer(Liquid.DensityOfLiquids DENSITY){
+        Liquid liquid = new Liquid(DENSITY);
+
+
+
+        return liquid;
+    }
 
 
 
