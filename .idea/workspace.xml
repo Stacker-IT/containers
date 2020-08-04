@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2471b97d-7495-4544-a984-1b191dc6be33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Filler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Filler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/SquareContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/SquareContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +89,7 @@
       <workItem from="1596214915211" duration="6841000" />
       <workItem from="1596473181311" duration="199000" />
       <workItem from="1596549217218" duration="2435000" />
-      <workItem from="1596552785428" duration="6575000" />
+      <workItem from="1596552785428" duration="7083000" />
     </task>
     <servers />
   </component>
