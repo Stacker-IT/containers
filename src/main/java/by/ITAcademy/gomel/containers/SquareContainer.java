@@ -2,7 +2,7 @@ package by.ITAcademy.gomel.containers;
 
 import by.ITAcademy.gomel.Properties;
 
-public class SquareContainer extends RectangleContainer{
+public class SquareContainer extends RectangleContainer {
     public SquareContainer(double a1, double a2) {
         super(a1, a1, a2, a2);
     }

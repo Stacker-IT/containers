@@ -2,14 +2,11 @@ package by.ITAcademy.gomel.containers;
 
 import by.ITAcademy.gomel.Properties;
 import by.ITAcademy.gomel.liquids.Liquid;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
-//@AllArgsConstructor
 public abstract class Container {
 
-    //    private double volume;
     Liquid liquid = null;
 
     protected Container() {
@@ -41,10 +38,12 @@ public abstract class Container {
 
     @Override
     public String toString() {
-        return "bs1:" + String.format("%5.2f", baseSquare1) + " | " +
-                "bs2: " + String.format("%5.2f", baseSquare2) + " | " +
+        return "| type: " + String.format("%-18s", this.getClass().getSimpleName()) + " | " +
+                "base square1: " + String.format("%5.2f", baseSquare1) + " | " +
+                "base square2: " + String.format("%5.2f", baseSquare2) + " | " +
+                "volume: " + String.format("%-5.2f", getVolume()) + " | " +
                 "liquid: " + String.format("%-10s", liquid.getDENSITY()) + " | " +
-                "weight of liquid: " + String.format("%-8.2f", liquid.getWeight()) + " | " +
-                this.getClass().getName();
+                "liquid volume: " + String.format("%-5.2f", liquid.getVolume()) + " | " +
+                "liquid weight: " + String.format("%-8.2f", liquid.getWeight()) + " | ";
     }
 }

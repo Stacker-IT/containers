@@ -1,11 +1,8 @@
 package by.ITAcademy.gomel;
 
 import by.ITAcademy.gomel.containers.*;
-import by.ITAcademy.gomel.liquids.Liquid;
 
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
 
 public class Filler {
     public static void main(String[] args) {
@@ -36,12 +33,17 @@ public class Filler {
         containers.add(container9);
         containers.add(container10);
 
-//        System.out.println(containers);
+//        for (Container cntr:containers
+//        ) {
+//            System.out.println(cntr);
+//        }
+//        System.out.println();
+
         containers.sort(containerComparator);
-//        System.out.println(containers);
-        for (Container contr:containers
+
+        for (Container cntr:containers
              ) {
-            System.out.println(contr);
+            System.out.println(cntr);
         }
 
     }
