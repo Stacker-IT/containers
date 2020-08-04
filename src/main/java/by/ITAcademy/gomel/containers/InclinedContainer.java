@@ -16,6 +16,7 @@ public abstract class InclinedContainer extends Container{
     }
 
     public Liquid fillContainer(Liquid liquid) {
+
         if (liquid.getVolume() > getVolume() * Properties.OCCUPANCY_OF_CONTAINERS) {
             liquid.setVolume(getVolume() * Properties.OCCUPANCY_OF_CONTAINERS);
         }
@@ -27,4 +28,6 @@ public abstract class InclinedContainer extends Container{
         return (baseSquare1 + Math.sqrt(baseSquare1 * baseSquare2) + baseSquare2)
                 * Properties.HEIGHT_OF_CONTAINERS / 3;
     }
+
+
 }

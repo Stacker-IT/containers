@@ -2,28 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2471b97d-7495-4544-a984-1b191dc6be33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedCircleContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedEllipseContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedHexagonContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedRectangleContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedSquareContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedTrapezeContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightCircleContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightEllipseContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightHexagonContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightRectangleContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightSquareContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightTrapezeContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/ContainerComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Filler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Filler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Properties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Properties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/liquids/Liquid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/liquids/Liquid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedCircleContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedCircleContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedEllipseContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedEllipseContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedHexagonContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedHexagonContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedRectangleContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedRectangleContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedSquareContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedSquareContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedTrapezeContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/InclinedTrapezeContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightCircleContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightCircleContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightEllipseContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightEllipseContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightHexagonContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightHexagonContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightRectangleContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightRectangleContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightSquareContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightSquareContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightTrapezeContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/containers/StraightTrapezeContainer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +103,9 @@
       <workItem from="1595623368195" duration="3806000" />
       <workItem from="1595750137682" duration="5015000" />
       <workItem from="1595872878106" duration="7641000" />
+      <workItem from="1596214915211" duration="6841000" />
+      <workItem from="1596473181311" duration="199000" />
+      <workItem from="1596549217218" duration="2435000" />
     </task>
     <servers />
   </component>
@@ -125,16 +124,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/by/ITAcademy/gomel/Filler.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

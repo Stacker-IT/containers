@@ -16,4 +16,10 @@ public abstract class Container {
     public abstract Liquid fillContainer(Liquid liquid);
 
 
+    @Override
+    public String toString() {
+        return "Container{" +
+                "liquid=" + liquid +
+                '}';
+    }
 }
