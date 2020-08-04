@@ -9,21 +9,40 @@ import java.util.List;
 
 public class Filler {
     public static void main(String[] args) {
-        InclinedContainer container = new InclinedCircleContainer(3, 4, Properties.DensityOfLiquids.KEROSENE);
-        StraightContainer container1 = new StraightCircleContainer(4, Properties.DensityOfLiquids.ENGINE_OIL);
-        StraightContainer container2 = new StraightHexagonContainer(6, Properties.DensityOfLiquids.PETROL);
-        InclinedContainer container3 = new InclinedTrapezeContainer(4, 5, 6, 7, 5, 8, Properties.DensityOfLiquids.PETROL);
-        InclinedContainer container4 = new InclinedRectangleContainer(4, 6, 3, 2, Properties.DensityOfLiquids.KEROSENE);
-        ArrayList<Container> containers = new ArrayList<Container>();
+
+        Container container1 = new CircleContainer(2, Properties.DensityOfLiquids.KEROSENE);
+        Container container2 = new EllipseContainer(2, 4, Properties.DensityOfLiquids.PETROL);
+        Container container3 = new CircleContainer(2, 3, Properties.DensityOfLiquids.ENGINE_OIL);
+        Container container4 = new RectangleContainer(4, 5, Properties.DensityOfLiquids.ENGINE_OIL);
+        Container container5 = new TrapezeContainer(2, 3, 4, 3, 4, 5, Properties.DensityOfLiquids.PETROL);
+        Container container6 = new TrapezeContainer(3, 4, 5, Properties.DensityOfLiquids.KEROSENE);
+        Container container7 = new SquareContainer(6, Properties.DensityOfLiquids.PETROL);
+        Container container8 = new SquareContainer(4, 5, Properties.DensityOfLiquids.ENGINE_OIL);
+        Container container9 = new HexagonContainer(6, Properties.DensityOfLiquids.PETROL);
+        Container container10 = new HexagonContainer(5, 6, Properties.DensityOfLiquids.PETROL);
+
         ContainerComparator containerComparator = new ContainerComparator();
-        containers.add(container);
-        System.out.println(container);
+
+        ArrayList<Container> containers = new ArrayList<>();
+
         containers.add(container1);
         containers.add(container2);
         containers.add(container3);
         containers.add(container4);
+        containers.add(container5);
+        containers.add(container6);
+        containers.add(container7);
+        containers.add(container8);
+        containers.add(container9);
+        containers.add(container10);
 
+//        System.out.println(containers);
         containers.sort(containerComparator);
+//        System.out.println(containers);
+        for (Container contr:containers
+             ) {
+            System.out.println(contr);
+        }
 
     }
 }
